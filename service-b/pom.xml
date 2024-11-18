@@ -17,6 +17,16 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.7.10</version>
         </dependency>
+        <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-api</artifactId>
+            <version>1.44.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-sdk-metrics</artifactId>
+            <version>1.44.0</version>
+        </dependency>        
     </dependencies>
 
     <build>
